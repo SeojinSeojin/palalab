@@ -6,19 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PaLa Lab</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
 </head>
 
-<body>
+<body style="background-image: url('./books-2596809_1280.webp'); min-width: 700px">
     <header>
-        <a href="">Pala Lab</a>
-        <a href="">Home</a>
-        <a href="">People</a>
-        <a href="">Research</a>
-        <a href="">Collaboration</a>
+        <nav style="background: linear-gradient(#f7fafc, #e2e8f0)">
+            <div class="nav-wrapper">
+                <a href="" class="brand-logo" style="color: black"> Pala Lab</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger" style="color: black">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="" style="color: black" class="nav">Software</a></li>
+                    <li>
+                        <a href="" style="color: black" class="nav">Collaboration</a>
+                    </li>
+                    <li><a href="" style="color: black" class="nav">Research</a></li>
+                    <li><a href="" style="color: black" class="nav">People</a></li>
+                    <li><a href="" style="color: black" class="nav">Main</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <div id="backg"></div>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="" class="nav">Main</a></li>
+        <li><a href="" class="nav">People</a></li>
+        <li><a href="" class="nav">Research</a></li>
+        <li><a href="" class="nav">Collaboration</a></li>
+        <li><a href="" class="nav">Software</a></li>
+    </ul>
     <main>
-        <div class="main_card">
+        <div id="title">
+            <p>Projects</p>
+        </div>
+        <div id="sub">
             <table>
                 <thead>
                     <tr>
@@ -39,16 +63,55 @@
                             공동체심리검사개발, 소비자심리빅데이터분석, 주거와 정신건강, 머신러닝, 블록체인, ICT
                         </td>
                     </tr>
+                    <tr>
+                        <td>2019~2022</td>
+                        <td>연구책임자 (한국연구재단)</td>
+                        <td>
+                            머신러닝 및 블록체인을 활용한 생리적 지표기반 통합적재범예측평가시스템개발
+                        </td>
+                        <td>범죄심리, 뇌파연구, 인지 및 신경심리, 머신러닝</td>
+                    </tr>
+                    <tr>
+                        <td>2017~2019</td>
+                        <td>공동책임연구원 (한국연구재단)</td>
+                        <td>머신러닝을 활용한 불면증 평가도구 개발</td>
+                        <td>건강심리, 머신러닝, 불면증심리검사개발, 심리검사</td>
+                    </tr>
+                    <tr>
+                        <td>2017~2020</td>
+                        <td>공동연구원 (한국연구재단)</td>
+                        <td>주택시장에 영향을 미치는 소비자심리 및 경제요인분석</td>
+                        <td>소비자심리, 머신러닝, 행동경제심리,</td>
+                    </tr>
+                    <tr>
+                        <td>2017~2019</td>
+                        <td>공동책임연구원 (한국연구재단)</td>
+                        <td>머신러닝을 활용한 불면증 평가도구 개발</td>
+                        <td>건강심리, 머신러닝, 불면증심리검사개발, 심리검사</td>
+                    </tr>
+                    <tr>
+                        <td>2017~2019</td>
+                        <td>공동책임연구원 (한국연구재단)</td>
+                        <td>머신러닝을 활용한 불면증 평가도구 개발</td>
+                        <td>건강심리, 머신러닝, 불면증심리검사개발, 심리검사</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
-        <footer>
+        <footer class="page-footer">
             <div id="connect">
                 <div>Tel : 000-0000-0000</div>
                 <div>Email : 000@000.com</div>
             </div>
         </footer>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var elems = document.querySelectorAll(".sidenav");
+            var instances = M.Sidenav.init(elems);
+        });
+    </script>
 </body>
 
 </html>

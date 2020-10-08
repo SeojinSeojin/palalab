@@ -6,36 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PaLa Lab</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
 </head>
 
-<body>
+<body style="background-image: url('./bg.png')">
     <header>
-        <ul style="padding: 0">
-            <a href="">Pala Lab</a>
-            <a href="" class="nav">Main</a>
-            <a href="" class="nav">People</a>
-            <a href="" class="nav">Research</a>
-            <a href="" class="nav">Collaboration</a>
-        </ul>
+        <nav style="background: linear-gradient(#f7fafc, #e2e8f0)">
+            <div class="nav-wrapper">
+                <a href="" class="brand-logo" style="color: black">Pala Lab</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger" style="color: black">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="" style="color: black" class="nav">Main</a></li>
+                    <li><a href="" style="color: black" class="nav">People</a></li>
+                    <li><a href="" style="color: black" class="nav">Research</a></li>
+                    <li>
+                        <a href="" style="color: black" class="nav">Collaboration</a>
+                    </li>
+                    <li><a href="" style="color: black" class="nav">Software</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <div id="backg"></div>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="" class="nav">Main</a></li>
+        <li><a href="" class="nav">People</a></li>
+        <li><a href="" class="nav">Research</a></li>
+        <li><a href="" class="nav">Collaboration</a></li>
+        <li><a href="" class="nav">Software</a></li>
+    </ul>
     <main>
         <div id="title">
             <p id="palalab">People and Learning analytics</p>
         </div>
-        <div id="sub">
+        <div id="sub" style="background: linear-gradient(#f7fafc, #e2e8f0)">
             <div class="innersub">
                 People analytics and Learning analytics를 하는 곳입니다.
                 <br />Technology를 활용하여 Learning을 돕고, 진보된 통계기법을 이용하여 사람에 대해서, 그리고 사람과 그 외의 관계(사람과 사람, 사람과 조직) 상호작용을 분석, 맞춤형 프로그램을 제작합니다.
             </div>
         </div>
-        <footer>
+        <footer class="page-footer">
             <div id="connect">
                 <div>Tel : 000-0000-0000</div>
                 <div>Email : 000@000.com</div>
             </div>
         </footer>
     </main>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var elems = document.querySelectorAll(".sidenav");
+            var instances = M.Sidenav.init(elems);
+        });
+    </script>
 </body>
 
 </html>

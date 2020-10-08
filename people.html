@@ -6,17 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PaLa Lab</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
 </head>
 
-<body>
+<body style="background-image: url('./bg_people.png')">
     <header>
-        <a href="">Pala Lab</a>
-        <a href="">Main</a>
-        <a href="">People</a>
-        <a href="">Research</a>
-        <a href="">Collaboration</a>
+        <nav style="background: linear-gradient(#f7fafc, #e2e8f0)">
+            <div class="nav-wrapper">
+                <a href="" class="brand-logo" style="color: black">Pala Lab</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger" style="color: black">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="" style="color: black" class="nav">Main</a></li>
+                    <li><a href="" style="color: black" class="nav">People</a></li>
+                    <li><a href="" style="color: black" class="nav">Research</a></li>
+                    <li>
+                        <a href="" style="color: black" class="nav">Collaboration</a>
+                    </li>
+                    <li><a href="" style="color: black" class="nav">Software</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <div id="backg"></div>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="" class="nav">Main</a></li>
+        <li><a href="" class="nav">People</a></li>
+        <li><a href="" class="nav">Research</a></li>
+        <li><a href="" class="nav">Collaboration</a></li>
+        <li><a href="" class="nav">Software</a></li>
+    </ul>
     <main>
         <div id="title">
             <p>People</p>
@@ -58,6 +79,13 @@
             </div>
         </footer>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var elems = document.querySelectorAll(".sidenav");
+            var instances = M.Sidenav.init(elems);
+        });
+    </script>
 </body>
 
 </html>
