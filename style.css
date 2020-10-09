@@ -134,7 +134,10 @@ thead {
 
 tr {
     border-bottom: 1px solid black;
-    vertical-align: top;
+}
+
+td {
+    vertical-align: top!important
 }
 
 div.main_card {
@@ -171,13 +174,31 @@ div.main_card::-webkit-scrollbar {
     list-style: none;
 }
 
+.main_card_sw {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.main_card_sw p {
+    font-size: 1.3rem;
+}
+
+.name {
+    border-bottom: 1px #2d3748;
+    text-decoration: underline;
+}
+
+.introd {
+    font-size: .9rem;
+    color: #3d444e;
+}
+
 div.main_card table {
     width: 100%;
     font-size: 0.9rem;
 }
 
-div.main_card table tbody {
-    vertical-align: top;
+table tbody {
     font-size: 0.8rem;
 }
 

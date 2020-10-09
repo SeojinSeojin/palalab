@@ -12,20 +12,22 @@
 
 <body style="background-image: url('./bg_people.png')">
     <header>
-        <nav style="background: linear-gradient(#f7fafc, #e2e8f0)">
+        <nav style="
+          background: linear-gradient(#f7fafc, #e2e8f0);
+          z-index: inherit 99;
+        ">
             <div class="nav-wrapper">
-                <a href="" class="brand-logo" style="color: black">Pala Lab</a>
+                <a href="" class="brand-logo" style="color: black; margin-left: 2rem">ALPA Lab</a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger" style="color: black">
                     <i class="fas fa-bars"></i>
                 </a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="" style="color: black" class="nav">Main</a></li>
+                    <li><a href="" style="color: black" class="nav">Home</a></li>
                     <li><a href="" style="color: black" class="nav">People</a></li>
                     <li><a href="" style="color: black" class="nav">Research</a></li>
-                    <li>
-                        <a href="" style="color: black" class="nav">Collaboration</a>
-                    </li>
-                    <li><a href="" style="color: black" class="nav">Software</a></li>
+                    <li><a href="" style="color: black" class="nav">Publication</a></li>
+                    <li><a href="" style="color: black" class="nav">Software (CAT/BNAs)</a></li>
+                    <li><a href="" style="color: black" class="nav">Assessment</a></li>
                 </ul>
             </div>
         </nav>
@@ -35,15 +37,16 @@
         <li><a href="" class="nav">Main</a></li>
         <li><a href="" class="nav">People</a></li>
         <li><a href="" class="nav">Research</a></li>
-        <li><a href="" class="nav">Collaboration</a></li>
-        <li><a href="" class="nav">Software</a></li>
+        <li><a href="" class="nav">Publication</a></li>
+        <li><a href="" class="nav">Software (CAT/BNAs)</a></li>
+        <li><a href="" class="nav">Assessment</a></li>
     </ul>
     <main>
         <div id="title">
             <p>People</p>
         </div>
         <div id="sub">
-            <div class="main_card_people">
+            <div class="main_card_sw">
                 <p>PI</p>
                 <ul>
                     <li>Education 2005 성균관대학교 심리학과 졸업</li>
@@ -55,7 +58,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="main_card_people">
+            <div class="main_card_sw">
                 <p>Professional</p>
                 <ul>
                     <li>2012 CISCO Academic Institute, Assistant Psychometrican</li>
@@ -67,12 +70,45 @@
                     </li>
                 </ul>
             </div>
-            <div class="main_card_people">
+            <div class="main_card_sw">
                 <p>Lab Members</p>
-                <ul></ul>
+                <ul>
+                    <li style="margin-bottom:.5rem">
+                        <div class="name">
+                            고정민 (AI 꿈나무)
+                        </div>
+                        <div class="introd">
+                            AI를 사용하여 학생들의 학습에 도움을 주는 게 목표입니다. 머신러닝 및 자연어처리에 관심이 있습니다.
+                        </div>
+                    </li>
+                    <li style="margin-bottom:.5rem">
+                        <div class="name">
+                            이다운 (해결사)
+                        </div>
+                        <div class="introd">
+                            누군가의 문제를 해결하는 실행력을 바탕으로 성장하는 사람입니다. 완벽이 아닌 점진적인 프로토피아를 추구합니다.
+                        </div>
+                    </li>
+                    <li style="margin-bottom:.5rem">
+                        <div class="name">
+                            김태형 (코수)
+                        </div>
+                        <div class="introd">
+                            '코딩하는 수학자'의 줄임말이자, '코딩 고수가 되고 싶은 소망'을 담은 중의적 이름입니다. 학생들에게 좋은 온라인 학습을 제공하고 싶은 꿈을 가지고 있습니다. 수학과 수학교육에 대해 공부해왔고, 현재 파이썬을 이용한 풀스택 웹 개발을 공부 중입니다.
+                        </div>
+                    </li>
+                    <li style="margin-bottom:.5rem">
+                        <div class="name">
+                            김서진 (멋있는 개발자)
+                        </div>
+                        <div class="introd">
+                            배우고 개발하며 나누는 걸 즐거이 하는 학부생입니다. 저의 개발 결과물이 많은 사람들에게 도움이 되기를 소망합니다.
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
-        <footer>
+        <footer class="page-footer">
             <div id="connect">
                 <div>Tel : 000-0000-0000</div>
                 <div>Email : 000@000.com</div>
