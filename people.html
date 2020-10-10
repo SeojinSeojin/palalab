@@ -47,31 +47,31 @@
         </div>
         <div id="sub">
             <div class="main_card_sw">
-                <p>PI</p>
-                <ul>
-                    <li>Education 2005 성균관대학교 심리학과 졸업</li>
+                <p>Younyoung Choi (Principal Investigator)</p>
+                <ul style="margin-bottom:.8rem;">
+                    <li onclick="copy_to_clipboard('yountoto@gmail.com');" style="cursor: pointer; color:rgb(86, 86, 87)">yountoto@gmail.com</li>
+                    <li>2012 Ph.D. Department of Human Development and Quantitative Methodology, University of Maryland at College Park</li>
                     <li>
-                        2009 University of Maryland at College Park, Measurement, Statistics, and Evaluation 석사졸업
+                        2009 M.A. Department of Human Development and Quantitative Methodology, University of Maryland at College Park
                     </li>
                     <li>
-                        2012 University of Maryland at College Park, Human Development and Quantitative Methodology, 세부전공 Measurement, Statistics, and Evaluation 박사졸업
+                        2005 B.A. Psychology, Sungkwunkwan University
                     </li>
+                    <li>Interest: Technology based Learning System, Bayesian Network Analysis, Item Response Theory, Formative Assessment, Social Network Analysis, Criminals</li>
                 </ul>
-            </div>
-            <div class="main_card_sw">
-                <p>Professional</p>
+
                 <ul>
                     <li>2012 CISCO Academic Institute, Assistant Psychometrican</li>
                     <li>
                         2012 Center of Applied Linguistics, Assistant Psychometrican
                     </li>
                     <li>
-                        현재 한국심리측정평가학회 대외이사 한국심리학회 윤리위원 공공기관 면접위원 교육평가원 및 개발원 자문위원
+                        현재 한국심리측정평가학회 대외이사<br>한국심리학회 윤리위원<br>공공기관 면접위원<br>교육평가원 및 개발원 자문위원
                     </li>
                 </ul>
             </div>
             <div class="main_card_sw">
-                <p>Lab Members</p>
+                <p>Students</p>
                 <ul>
                     <li style="margin-bottom:.5rem">
                         <div class="name">
@@ -121,6 +121,11 @@
             var elems = document.querySelectorAll(".sidenav");
             var instances = M.Sidenav.init(elems);
         });
+    </script>
+    <script>
+        function copy_to_clipboard(str) {
+            window.clipboardData.setData("Text", str);
+        }
     </script>
 </body>
 
