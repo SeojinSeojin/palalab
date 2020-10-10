@@ -171,11 +171,11 @@ div.main_card::-webkit-scrollbar {
 }
 
 .not_bold_p p {
-    font-weight: 100;
+    font-weight: 500;
 }
 
 .not_bold_p b {
-    font-weight: 900;
+    font-weight: 800;
 }
 
 div.main_card table {
