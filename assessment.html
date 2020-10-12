@@ -1,70 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>APLA Lab</title>
     <link rel="stylesheet" href="style.css" />
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  </head>
 
-<body style="background-image: url('./bg.png')">
+  <body>
     <header>
-        <nav style="background: linear-gradient(#f7fafc, #e2e8f0)">
-            <div class="nav-wrapper">
-                <a href="./main.html" class="brand-logo" style="color: black; margin-left: 2rem">ALPA Lab</a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger" style="color: black">
-                    <i class="fas fa-bars"></i>
-                </a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="./main.html" style="color: black" class="nav">Home</a></li>
-                    <li><a href="./people.html" style="color: black" class="nav">People</a></li>
-                    <li><a href="./project.html" style="color: black" class="nav">Research</a></li>
-                    <li><a href="./publication.html" style="color: black" class="nav">Publication</a></li>
-                    <li><a href="./software.html" style="color: black" class="nav">Software (CAT/BNAs)</a></li>
-                    <li><a href="./assessment.html" style="color: black" class="nav">Assessment</a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav style="background: linear-gradient(#f7fafc, #e2e8f0)">
+        <div class="nav-wrapper">
+          <a
+            href="./main.html"
+            class="brand-logo"
+            style="color: black; margin-left: 2rem"
+            >ALPA Lab</a
+          >
+          <a
+            href="#"
+            data-target="mobile-demo"
+            class="sidenav-trigger"
+            style="color: black"
+          >
+            <i class="fas fa-bars"></i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="./main.html" style="color: black" class="nav">Home</a>
+            </li>
+            <li>
+              <a href="./people.html" style="color: black" class="nav"
+                >People</a
+              >
+            </li>
+            <li>
+              <a href="./project.html" style="color: black" class="nav"
+                >Research</a
+              >
+            </li>
+            <li>
+              <a href="./publication.html" style="color: black" class="nav"
+                >Publication</a
+              >
+            </li>
+            <li>
+              <a href="./software.html" style="color: black" class="nav"
+                >Software (CAT/BNAs)</a
+              >
+            </li>
+            <li>
+              <a href="./assessment.html" style="color: black" class="nav"
+                >Assessment</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
-    <div id="backg"></div>
+
+    <div id="title_bg" style="background-image: url('./bg.png')"></div>
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="./main.html" class="nav">Main</a></li>
-        <li><a href="./people.html" class="nav">People</a></li>
-        <li><a href="./project.html " class="nav">Research</a></li>
-        <li><a href="./publication.html" class="nav">Publication</a></li>
-        <li><a href="./software.html" class="nav">Software (CAT/BNAs)</a></li>
-        <li><a href="./assessment.html" class="nav">Assessment</a></li>
+      <li><a href="./main.html" class="nav">Main</a></li>
+      <li><a href="./people.html" class="nav">People</a></li>
+      <li><a href="./project.html " class="nav">Research</a></li>
+      <li><a href="./publication.html" class="nav">Publication</a></li>
+      <li><a href="./software.html" class="nav">Software (CAT/BNAs)</a></li>
+      <li><a href="./assessment.html" class="nav">Assessment</a></li>
     </ul>
     <main>
-        <div id="title">
-            <p id="palalab">Assessment</p>
+      <div id="title">
+        <p id="palalab">Assessment</p>
+      </div>
+      <div id="sub" style="background: linear-gradient(#f7fafc, #e2e8f0)">
+        <div class="main_card_sw">
+          <p>1. ECD (Evidence Centered Design Framework)</p>
+          <img
+            src="./ecd.png"
+            alt="ECD"
+            style="height: auto; width: 80%; margin-left: 10%"
+            class="z-depth-1 responsive-img"
+          />
+          <p>2. Validation Scale Test</p>
         </div>
-        <div id="sub" style="background: linear-gradient(#f7fafc, #e2e8f0)">
-            <div class="main_card_sw">
-                <p>1. ECD (Evidence Centered Design Framework)</p>
-                <img src="./ecd.png" alt="ECD" style="height:auto;width:80%;margin-left:10%" class="z-depth-1 responsive-img">
-                <p>2. Validation Scale Test</p>
-            </div>
+      </div>
+      <footer class="page-footer">
+        <div id="connect">
+          <div>Tel : 000-0000-0000</div>
+          <div>Email : 000@000.com</div>
         </div>
-        <footer class="page-footer">
-            <div id="connect">
-                <div>Tel : 000-0000-0000</div>
-                <div>Email : 000@000.com</div>
-            </div>
-        </footer>
+      </footer>
     </main>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            var elems = document.querySelectorAll(".sidenav");
-            var instances = M.Sidenav.init(elems);
-        });
+      document.addEventListener("DOMContentLoaded", function () {
+        var elems = document.querySelectorAll(".sidenav");
+        var instances = M.Sidenav.init(elems);
+      });
     </script>
-</body>
-
+  </body>
 </html>

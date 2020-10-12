@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
 </head>
 
-<body style="background-image: url('./bg_people.png')">
+<body>
     <header>
         <nav style="
           background: linear-gradient(#f7fafc, #e2e8f0);
@@ -22,17 +22,29 @@
                     <i class="fas fa-bars"></i>
                 </a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="./main.html" style="color: black" class="nav">Home</a></li>
-                    <li><a href="./people.html" style="color: black" class="nav">People</a></li>
-                    <li><a href="./project.html" style="color: black" class="nav">Research</a></li>
-                    <li><a href="./publication.html" style="color: black" class="nav">Publication</a></li>
-                    <li><a href="./software.html" style="color: black" class="nav">Software (CAT/BNAs)</a></li>
-                    <li><a href="./assessment.html" style="color: black" class="nav">Assessment</a></li>
+                    <li>
+                        <a href="./main.html" style="color: black" class="nav">Home</a>
+                    </li>
+                    <li>
+                        <a href="./people.html" style="color: black" class="nav">People</a>
+                    </li>
+                    <li>
+                        <a href="./project.html" style="color: black" class="nav">Research</a>
+                    </li>
+                    <li>
+                        <a href="./publication.html" style="color: black" class="nav">Publication</a>
+                    </li>
+                    <li>
+                        <a href="./software.html" style="color: black" class="nav">Software (CAT/BNAs)</a>
+                    </li>
+                    <li>
+                        <a href="./assessment.html" style="color: black" class="nav">Assessment</a>
+                    </li>
                 </ul>
             </div>
         </nav>
     </header>
-    <div id="backg"></div>
+    <div id="title_bg" style="background-image: url('./bg_people.png');"></div>
     <ul class="sidenav" id="mobile-demo">
         <li><a href="./main.html" class="nav">Main</a></li>
         <li><a href="./people.html" class="nav">People</a></li>
@@ -43,21 +55,25 @@
     </ul>
     <main>
         <div id="title">
-            <p>People</p>
+            <p style="color: black;">People</p>
         </div>
         <div id="sub">
             <div class="main_card_sw">
                 <p>Younyoung Choi (Principal Investigator)</p>
-                <ul style="margin-bottom:.8rem;">
-                    <li onclick="copy_to_clipboard('yountoto@gmail.com');" style="cursor: pointer; color:rgb(86, 86, 87)">yountoto@gmail.com</li>
-                    <li>2012 Ph.D. Department of Human Development and Quantitative Methodology, University of Maryland at College Park</li>
+                <ul style="margin-bottom: 0.8rem">
+                    <li onclick="copy_to_clipboard('yountoto@gmail.com');" style="cursor: pointer; color: rgb(86, 86, 87)">
+                        yountoto@gmail.com
+                    </li>
+                    <li>
+                        2012 Ph.D. Department of Human Development and Quantitative Methodology, University of Maryland at College Park
+                    </li>
                     <li>
                         2009 M.A. Department of Human Development and Quantitative Methodology, University of Maryland at College Park
                     </li>
+                    <li>2005 B.A. Psychology, Sungkwunkwan University</li>
                     <li>
-                        2005 B.A. Psychology, Sungkwunkwan University
+                        Interest: Technology based Learning System, Bayesian Network Analysis, Item Response Theory, Formative Assessment, Social Network Analysis, Criminals
                     </li>
-                    <li>Interest: Technology based Learning System, Bayesian Network Analysis, Item Response Theory, Formative Assessment, Social Network Analysis, Criminals</li>
                 </ul>
 
                 <ul>
@@ -66,41 +82,34 @@
                         2012 Center of Applied Linguistics, Assistant Psychometrican
                     </li>
                     <li>
-                        현재 한국심리측정평가학회 대외이사<br>한국심리학회 윤리위원<br>공공기관 면접위원<br>교육평가원 및 개발원 자문위원
+                        현재 한국심리측정평가학회 대외이사<br />한국심리학회 윤리위원<br />공공기관 면접위원
+                        <br />교육평가원 및 개발원 자문위원
                     </li>
                 </ul>
             </div>
             <div class="main_card_sw">
                 <p>Students</p>
                 <ul>
-                    <li style="margin-bottom:.5rem">
-                        <div class="name">
-                            고정민 (AI 꿈나무)
-                        </div>
+                    <li style="margin-bottom: 0.5rem">
+                        <div class="name">고정민 (AI 꿈나무)</div>
                         <div class="introd">
                             AI를 사용하여 학생들의 학습에 도움을 주는 게 목표입니다. 머신러닝 및 자연어처리에 관심이 있습니다.
                         </div>
                     </li>
-                    <li style="margin-bottom:.5rem">
-                        <div class="name">
-                            이다운 (해결사)
-                        </div>
+                    <li style="margin-bottom: 0.5rem">
+                        <div class="name">이다운 (해결사)</div>
                         <div class="introd">
                             누군가의 문제를 해결하는 실행력을 바탕으로 성장하는 사람입니다. 완벽이 아닌 점진적인 프로토피아를 추구합니다.
                         </div>
                     </li>
-                    <li style="margin-bottom:.5rem">
-                        <div class="name">
-                            김태형 (코수)
-                        </div>
+                    <li style="margin-bottom: 0.5rem">
+                        <div class="name">김태형 (코수)</div>
                         <div class="introd">
                             '코딩하는 수학자'의 줄임말이자, '코딩 고수가 되고 싶은 소망'을 담은 중의적 이름입니다. 학생들에게 좋은 온라인 학습을 제공하고 싶은 꿈을 가지고 있습니다. 수학과 수학교육에 대해 공부해왔고, 현재 파이썬을 이용한 풀스택 웹 개발을 공부 중입니다.
                         </div>
                     </li>
-                    <li style="margin-bottom:.5rem">
-                        <div class="name">
-                            김서진 (멋있는 개발자)
-                        </div>
+                    <li style="margin-bottom: 0.5rem">
+                        <div class="name">김서진 (멋있는 개발자)</div>
                         <div class="introd">
                             배우고 개발하며 나누는 걸 즐거이 하는 학부생입니다. 저의 개발 결과물이 많은 사람들에게 도움이 되기를 소망합니다.
                         </div>
