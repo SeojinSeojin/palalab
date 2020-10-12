@@ -113,8 +113,9 @@ table {
     margin: 0.5rem;
 }
 
-thead {
+thead tr th {
     text-align: left;
+    font-weight: 600;
 }
 
 tr {
@@ -171,6 +172,11 @@ div.main_card::-webkit-scrollbar {
 
 .main_card_sw p {
     font-size: 1.3rem;
+}
+
+.research_papers ul li {
+    line-height: 1.2rem;
+    margin-top: 1rem;
 }
 
 .name {
